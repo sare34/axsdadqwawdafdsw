@@ -79,12 +79,27 @@ fun DashboardScreen(
                 verticalAlignment = Alignment.CenterVertically
             ) {
                 Column {
+                    Row(verticalAlignment = Alignment.CenterVertically) {
+                        Text(
+                            text = "حارس الهاتف (Phone Guardian)",
+                            style = MaterialTheme.typography.titleLarge.copy(fontWeight = FontWeight.ExtraBold)
+                        )
+                        Spacer(modifier = Modifier.width(8.dp))
+                        Box(
+                            modifier = Modifier
+                                .background(GuardEmerald.copy(alpha = 0.2f), RoundedCornerShape(6.dp))
+                                .padding(horizontal = 6.dp, vertical = 2.dp)
+                        ) {
+                            Text(
+                                text = "بدون روت 100%",
+                                color = GuardEmerald,
+                                fontSize = 11.sp,
+                                fontWeight = FontWeight.Bold
+                            )
+                        }
+                    }
                     Text(
-                        text = "حارس الهاتف (Phone Guardian)",
-                        style = MaterialTheme.typography.titleLarge.copy(fontWeight = FontWeight.ExtraBold)
-                    )
-                    Text(
-                        text = "العميل الأمني الذكي والمستقل على جهازك",
+                        text = "العميل الأمني الذكي والمستقل على جهازك (يعمل بصلاحيات النظام القياسية)",
                         style = MaterialTheme.typography.bodyMedium.copy(color = TextMuted)
                     )
                 }
