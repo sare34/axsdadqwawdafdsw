@@ -45,7 +45,14 @@ class ShizukuManager(private val context: Context) {
         }
 
         return try {
-            val process = Shizuku.newProcess(arrayOf("sh", "-c", command), null, null)
+            val method = Shizuku::class.java.getDeclaredMethod(
+                "newProcess",
+                Array<String>::class.java,
+                Array<String>::class.java,
+                String::class.java
+            )
+            method.isAccessible = true
+            val process = method.invoke(null, arrayOf("sh", "-c", command), null, null) as Process
             val output = BufferedReader(InputStreamReader(process.inputStream)).use { it.readText() }
             val error = BufferedReader(InputStreamReader(process.errorStream)).use { it.readText() }
             val exitCode = process.waitFor()

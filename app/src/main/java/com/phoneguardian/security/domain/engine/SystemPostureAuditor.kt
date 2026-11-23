@@ -124,7 +124,7 @@ class SystemPostureAuditor(private val context: Context) {
                                 description = "تاريخ التحديث الأمني للجهاز هو $patch. هناك ثغرات معروفة في النواة والنظام تم إصلاحها في التحديثات الأحدث.",
                                 category = FindingCategory.SYSTEM,
                                 severity = Severity.MEDIUM,
-                                deepLinkAction = Settings.ACTION_SYSTEM_UPDATE_SETTINGS
+                                deepLinkAction = "android.settings.SYSTEM_UPDATE_SETTINGS"
                             )
                         )
                     }
