@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- Dark Security Theme Palette -->
+    <color name="bg_dark">#0D1117</color>
+    <color name="surface_dark">#161B22</color>
+    <color name="surface_card_dark">#21262D</color>
+    
+    <!-- Neon / Cyber Accents -->
+    <color name="guard_emerald">#10B981</color>
+    <color name="guard_emerald_glow">#059669</color>
+    <color name="guard_cyan">#06B6D4</color>
+    <color name="guard_amber">#F59E0B</color>
+    <color name="guard_crimson">#EF4444</color>
+    <color name="guard_purple">#8B5CF6</color>
+
+    <color name="text_primary">#F0F6FC</color>
+    <color name="text_secondary">#8B949E</color>
+    <color name="divider_dark">#30363D</color>
+</resources>

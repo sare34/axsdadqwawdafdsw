@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">حارس الهاتف (Phone Guardian)</string>
+    <string name="security_agent_running">العميل الأمني الذكي نشط ويعمل ذاتياً</string>
+    <string name="service_notification_desc">مراقبة مستمرة على الجهاز وتحليل التهديدات والمعالجة الذاتية</string>
+    <string name="deep_scan_button">فحص شامل وفوري</string>
+    <string name="scanning">جارٍ فحص النظام والتطبيقات…</string>
+    <string name="security_score">مستوى الأمان</string>
+    <string name="system_healthy">النظام محمي ومستقر</string>
+    <string name="threats_detected">تم اكتشاف مخاطر أمنية</string>
+    <string name="nav_dashboard">الرئيسية</string>
+    <string name="nav_findings">المخاطر المكتشفة</string>
+    <string name="nav_actions">سجل الإجراءات</string>
+    <string name="nav_chat">المستشار الذكي (AI)</string>
+    <string name="nav_settings">الإعدادات</string>
+
+    <!-- Severities -->
+    <string name="severity_critical">حرج جداً</string>
+    <string name="severity_high">عالي الخطورة</string>
+    <string name="severity_medium">متوسط</string>
+    <string name="severity_low">منخفض</string>
+    <string name="severity_info">معلوماتي</string>
+
+    <!-- Categories -->
+    <string name="category_apps">فحص التطبيقات</string>
+    <string name="category_system">أمان النظام</string>
+    <string name="category_network">أمان الشبكة</string>
+    <string name="category_behavior">السلوك والخصوصية</string>
+    <string name="category_threat_intel">استخبارات التهديدات</string>
+
+    <!-- Actions -->
+    <string name="action_fix_now">معالجة ذاتية فورا</string>
+    <string name="action_open_settings">فتح الإعدادات</string>
+    <string name="action_dismiss">تجاهل التنبيه</string>
+    <string name="action_details">عرض التفاصيل</string>
+
+    <!-- Settings -->
+    <string name="settings_gemini_key">مفتاح واجهة Gemini API</string>
+    <string name="settings_gemini_desc">يُستخدم للتحليل الأمني الذكي وتقديم حلول المعالجة</string>
+    <string name="settings_vt_key">مفتاح واجهة VirusTotal API</string>
+    <string name="settings_vt_desc">يُستخدم للتحقق المشفر من بصمات التطبيقات بدون إرسال بيانات شخصية</string>
+    <string name="settings_scan_freq">تكرار الفحص الدوري</string>
+    <string name="settings_vpn_toggle">مراقب الشبكة المحلي (VPN محلي)</string>
+    <string name="settings_vpn_desc">فحص الاتصالات وحظر الخوادم المشبوهة على الجهاز فقط</string>
+    <string name="settings_shizuku">الوضع المتقدم (Shizuku)</string>
+    <string name="settings_shizuku_desc">تمكين سحب الصلاحيات الخطرة ذاتياً بدون الحاجة للنقر اليدوي</string>
+    <string name="save">حفظ</string>
+</resources>

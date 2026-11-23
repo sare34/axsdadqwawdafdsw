@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Phone Guardian</string>
+    <string name="security_agent_running">Autonomous AI Security Agent Active</string>
+    <string name="service_notification_desc">Continuous on-device posture analysis &amp; threat mitigation</string>
+    <string name="deep_scan_button">Run Deep Scan</string>
+    <string name="scanning">Scanning System…</string>
+    <string name="security_score">Security Score</string>
+    <string name="system_healthy">Protected &amp; Secure</string>
+    <string name="threats_detected">Threats Detected</string>
+    <string name="nav_dashboard">Dashboard</string>
+    <string name="nav_findings">Findings</string>
+    <string name="nav_actions">Action Log</string>
+    <string name="nav_chat">AI Analyst</string>
+    <string name="nav_settings">Settings</string>
+
+    <!-- Severities -->
+    <string name="severity_critical">Critical</string>
+    <string name="severity_high">High</string>
+    <string name="severity_medium">Medium</string>
+    <string name="severity_low">Low</string>
+    <string name="severity_info">Info</string>
+
+    <!-- Categories -->
+    <string name="category_apps">App Audit</string>
+    <string name="category_system">System Posture</string>
+    <string name="category_network">Network Security</string>
+    <string name="category_behavior">Behavioral Audit</string>
+    <string name="category_threat_intel">Threat Intel</string>
+
+    <!-- Actions -->
+    <string name="action_fix_now">Fix Automatically</string>
+    <string name="action_open_settings">Open Settings</string>
+    <string name="action_dismiss">Dismiss</string>
+    <string name="action_details">View Details</string>
+
+    <!-- Settings -->
+    <string name="settings_gemini_key">Gemini API Key</string>
+    <string name="settings_gemini_desc">Used for on-device threat analysis &amp; security recommendations</string>
+    <string name="settings_vt_key">VirusTotal API Key</string>
+    <string name="settings_vt_desc">Used for anonymous package SHA-256 threat verification</string>
+    <string name="settings_scan_freq">Scan Frequency</string>
+    <string name="settings_vpn_toggle">Local Traffic Monitor (VPN)</string>
+    <string name="settings_vpn_desc">Inspect &amp; drop malicious connections on-device without cloud routing</string>
+    <string name="settings_shizuku">Advanced Shizuku Mode</string>
+    <string name="settings_shizuku_desc">Enables automated permission revocations without manual tapping</string>
+    <string name="save">Save</string>
+</resources>
